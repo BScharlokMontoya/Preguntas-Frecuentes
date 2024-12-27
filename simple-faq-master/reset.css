@@ -1,0 +1,46 @@
+/* Elimina márgenes, paddings y bordes predeterminados */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Asegura que las listas no tengan estilos predeterminados */
+ol,
+ul {
+  list-style: none;
+}
+
+/* Elimina estilos de enlaces */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Asegura que las imágenes no se desborden */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Configura los botones para no heredar bordes ni rellenos */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Define una tipografía básica y altura de línea */
+html {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+/* Elimina diferencias entre navegadores en elementos de formulario */
+input,
+textarea,
+select,
+button {
+  font: inherit;
+  color: inherit;
+}

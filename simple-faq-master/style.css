@@ -1,20 +1,41 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  height: 100vh;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  color: #030616;
 }
 
-.author-info {
-  font-size: 14px;
+header {
+  background-color: #ffffff;
   text-align: center;
-  margin-top: 16px;
-  color: rgb(55, 65, 81);
 }
 
-.author-info a {
-  text-decoration: none;
+main {
+  background-color: #f8fafc;
+}
+section,
+hr {
+  width: 50%;
+  margin: auto;
+}
+
+hr {
+  border: 1px solid #6e6f70;
+}
+
+h1,
+h2 {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1rem;
 }
